@@ -42,14 +42,18 @@ All of your API related feedback, suggestions or bug reports can and should be f
 
 ## Changes
 
+**2015/11/01**
+
+- Fixed an encoding problem with link output of analysis/statistics
+
 **2015/04/26**
 
 - All endpoints support the country Austria now
 - category/searchbyname enpoint was removed
 - category/searchbykeyword Response field "parent" renamed to "parentid"
 - article/analyse endpoint was renamed to analysis/statistics; article/analyse stays functional for a while, however we strongly suggest to update
-- analysis/statistics Request parameter "quickdate" added 
-- analysis/statistics Response field "currency" contains now ISO 4217 code instead of currency symbol 
+- analysis/statistics Request parameter "quickdate" added
+- analysis/statistics Response field "currency" contains now ISO 4217 code instead of currency symbol
 - all endpoints: Response field "dataCount" removed
 - all endpoints: Response field "status" contains now HTTP status codes instead of "OK/FAIL"
 
